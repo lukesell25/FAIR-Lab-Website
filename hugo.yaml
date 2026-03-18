@@ -1,0 +1,55 @@
+baseURL: https://example.org/
+locale: en-us
+title: FAIR Lab
+theme: ["PaperMod"]
+
+# Adds buttons to the menu bar up top.
+menu:
+  main:
+    - identifier: about # Points to content/about.md
+      name: About
+      url: /about/
+      weight: 10
+    - identifier: faculty # Points to content/faculty/
+      name: Faculty
+      url: /faculty/
+      weight: 20
+    - identifier: research
+      name: Research
+      url: /research/
+      weight: 30 # Weights control where buttons appear within menu bar: this is third from left.
+    - identifier: reviews
+      name: AI Tool Reviews
+      url: /reviews/
+      weight: 40
+    - identifier: help
+      name: Request Help
+      url: /help/
+      weight: 50
+    - identifier: publications
+      name: Publications
+      url: /publications/
+      weight: 60
+    - identifier: resources
+      name: Resources
+      url: /resources/
+      weight: 70
+
+params:
+  # Controls the home page
+  profileMode:
+    enabled: true
+    title: FAIR Lab @ USAFA
+    subtitle: Falcon AI Research Lab
+    imageUrl: '/images/AF-logo-Blue-Bkgd.png'
+    imageWidth: 400
+    imageHeight: 200
+    buttons:
+      - name: "Meet the Faculty"
+        url: "/faculty/"
+      - name: "Request Help with AI"
+        url: "/help/"
+      - name: "Read Reviews on AI Tools"
+        url: "/reviews/"
+
+

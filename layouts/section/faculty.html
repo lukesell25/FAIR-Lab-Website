@@ -1,0 +1,20 @@
+{{ define "main" }}
+<main>
+  <h1>{{ .Title }}</h1>
+  <div class="faculty-grid">
+    {{ range .Pages }}
+      <a href="{{ .RelPermalink }}" class="faculty-card-link">
+        <div class="faculty-card">
+          {{ with .Params.image }}
+            <img src="{{ . }}" alt="{{ $.Title }}" class="faculty-photo"/>
+          {{ end }}
+          <h2>{{ .Title }}</h2>
+          {{ with .Params.role }}
+            <p class="faculty-role">{{ . }}</p>
+          {{ end }}
+        </div>
+      </a>
+    {{ end }}
+  </div>
+</main>
+{{ end }}

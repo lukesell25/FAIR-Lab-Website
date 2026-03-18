@@ -1,0 +1,58 @@
+/* Light mode colors */
+:root {
+    --theme: #ffffff; /* Main background color of entire site */
+    --entry: #ffffff; /* Background color of individual article/post boxes */
+    --primary: #003594; /* Main text color: headings, bold text, etc. Academy blue */
+}
+
+/* Dark mode colors */
+:root[data-theme="dark"] {
+    --theme: #0F172A;
+    --entry: #1E293B;
+    --primary: #F8FAFC;
+}
+
+/* Makes faculty page display as a grid rather than a list */
+.faculty-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.faculty-card {
+  text-align: center;
+  padding-top: 1rem;
+}
+
+.faculty-photo {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin: 0 auto 1rem auto; /* centers the image horizontally and adds space below */
+  display: block;
+}
+
+.faculty-role {
+  color: #666;
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+/* Dark and light mode overrides */
+[data-theme="dark"] .faculty-card {
+  background: #1E293B;
+}
+
+[data-theme="dark"] .faculty-card h2 {
+  color: #F8FAFC;
+}
+
+[data-theme="dark"] .faculty-role {
+  color: #c5c5c5;
+}
+
+.faculty-card {
+  background: #ffffff;
+}

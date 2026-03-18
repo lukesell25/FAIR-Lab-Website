@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>AI Tool Reviews on FAIR Lab</title>
+    <link>http://localhost:1313/reviews/</link>
+    <description>Recent content in AI Tool Reviews on FAIR Lab</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 01 Jan 0001 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/reviews/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Claude Code</title>
+      <link>http://localhost:1313/reviews/template/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/reviews/template/</guid>
+      <description>&lt;p&gt;Claude Code is an AI-powered coding assistant that helps you build features, fix bugs, and automate development tasks.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

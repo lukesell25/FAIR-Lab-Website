@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2026-03-17T11:52:30-06:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/resources/</loc>
+    <lastmod>2026-03-17T11:52:30-06:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/publications/</loc>
+    <lastmod>2026-03-17T11:52:03-06:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/reviews/</loc>
+    <lastmod>2026-03-17T11:40:06-06:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/research/</loc>
+    <lastmod>2026-03-17T11:39:59-06:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/about/</loc>
+  </url><url>
+    <loc>http://localhost:1313/categories/</loc>
+  </url><url>
+    <loc>http://localhost:1313/reviews/template/</loc>
+  </url><url>
+    <loc>http://localhost:1313/faculty/</loc>
+  </url><url>
+    <loc>http://localhost:1313/research/template/</loc>
+  </url><url>
+    <loc>http://localhost:1313/help/</loc>
+  </url><url>
+    <loc>http://localhost:1313/faculty/template-copy/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+  </url>
+</urlset>
