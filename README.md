@@ -65,6 +65,6 @@ locally unless you include the `-D` flag when starting the Hugo server (e.g., `h
 pages that are still being worked on and aren't ready to be published yet.
 
 ## Deployment
-TODO
+- See [here](https://gohugo.io/getting-started/usage/#deploy-your-site).
 
 

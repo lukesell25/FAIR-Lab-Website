@@ -53,5 +53,6 @@ params:
         url: "/help/"
       - name: "Read Reviews on AI Tools"
         url: "/reviews/"
+  defaultTheme: auto
 
 
