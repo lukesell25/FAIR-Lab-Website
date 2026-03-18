@@ -1,11 +1,11 @@
 ---
 #date: '2026-03-17T11:58:13-06:00'
 draft: false
-title: 'Mr. Template'
-role: 'Chief AI Officer'
+title: 'Ms. Template'
+role: 'Chief LLM Officer'
 image: '/images/faculty/profie_pic_placeholder.jpg'
 ---
-## Chief AI Officer
+## Chief LLM Officer
 
 {{< figure src="/images/faculty/profie_pic_placeholder.jpg" alt="Profile picture" width="200" >}}
 

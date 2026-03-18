@@ -2,7 +2,7 @@
 :root {
     --theme: #ffffff; /* Main background color of entire site */
     --entry: #ffffff; /* Background color of individual article/post boxes */
-    --primary: #003594; /* Main text color: headings, bold text, etc. Academy blue */
+    --primary: #003594; /* Main text color: headings, bold text, etc. */
 }
 
 /* Dark mode colors */
@@ -12,7 +12,7 @@
     --primary: #F8FAFC;
 }
 
-/* Makes faculty page display as a grid rather than a list */
+/* Makes faculty page display as a grid rather than a list. Works in conjunction with layouts/section/faculty.html. */
 .faculty-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
@@ -23,6 +23,7 @@
 .faculty-card {
   text-align: center;
   padding-top: 1rem;
+  border-radius: 12px;
 }
 
 .faculty-photo {
@@ -40,7 +41,7 @@
   margin-bottom: 0.5rem;
 }
 
-/* Dark and light mode overrides */
+/* Dark and light mode overrides for the faculty cards.*/
 [data-theme="dark"] .faculty-card {
   background: #1E293B;
 }

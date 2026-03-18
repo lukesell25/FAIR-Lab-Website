@@ -1,23 +1,29 @@
-baseURL: https://example.org/
+baseURL: https://example.org/ # TODO: Update this to the actual URL of the website once it's deployed.
 locale: en-us
-title: FAIR Lab
+title: FAIR Lab @ USAFA
 theme: ["PaperMod"]
 
-# Adds buttons to the menu bar up top.
+# Adds buttons to the menu bar up top. 
+#   "Identifier" is used for internal linking: "about" leads to content/about.md, "faculty" leads to content/faculty/.
+#   "Name" is the text that appears in the menu bar.
+#   "URL" is the URL path that the button links to. By convention, this should be the same as the identifier, but it 
+#     doesn't have to be.
+#   "Weight" controls the order of the buttons. Lower weights appear first. Convention is to use increments of 10 to 
+#     allow for easy insertion of new buttons later.
 menu:
   main:
-    - identifier: about # Points to content/about.md
+    - identifier: about
       name: About
       url: /about/
       weight: 10
-    - identifier: faculty # Points to content/faculty/
+    - identifier: faculty
       name: Faculty
       url: /faculty/
       weight: 20
     - identifier: research
       name: Research
       url: /research/
-      weight: 30 # Weights control where buttons appear within menu bar: this is third from left.
+      weight: 30
     - identifier: reviews
       name: AI Tool Reviews
       url: /reviews/
@@ -30,10 +36,6 @@ menu:
       name: Publications
       url: /publications/
       weight: 60
-    - identifier: resources
-      name: Resources
-      url: /resources/
-      weight: 70
 
 params:
   # Controls the home page
