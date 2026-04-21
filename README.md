@@ -4,7 +4,7 @@ This repository contains the source code for the FAIR Lab website, which is buil
 and the PaperMod theme. The website serves as a platform to showcase the research, publications, and members of the 
 FAIR Lab. As a static site, it can be easily updated by anyone that knows how to edit Markdown files.
 
-## Running Locally
+## Running Locally with Hugo
 
 ### Prerequisites
 - [Hugo](https://gohugo.io/getting-started/installing/)
@@ -13,7 +13,7 @@ FAIR Lab. As a static site, it can be easily updated by anyone that knows how to
 ### Steps
 1. Clone the repository:
     ```bash
-    git clone git@github.com:lukesell25/FAIR-Lab-Website.git
+    git clone https://github.com/lukesell25/FAIR-Lab-Website.git
     cd FAIR-Lab-Website
     ```
 2. Start the Hugo development server:
@@ -23,6 +23,27 @@ FAIR Lab. As a static site, it can be easily updated by anyone that knows how to
 3. Open your web browser and navigate to `http://localhost:1313` to view the website.
 4. Make changes to the content or layout as needed. The development server will automatically reload the page to 
 reflect your changes.
+
+## Running Locally with Docker
+
+### Prerequisites
+- [Docker](https://www.docker.com/get-started)
+
+### Steps
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/lukesell25/FAIR-Lab-Website.git
+    cd FAIR-Lab-Website
+    ```
+2. Build the Docker image:
+    ```bash
+    docker build -t fair-lab-website .
+    ```
+3. Run the Docker container:
+    ```bash
+    docker run -p 80:80 fair-lab-website
+    ```
+4. Open your web browser and navigate to `http://localhost` to view the website.
 
 ## Making Edits
 - Please read the [Hugo Getting Started Guide](https://gohugo.io/getting-started/) before making edits to familiarize 

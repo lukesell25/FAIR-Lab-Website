@@ -1,4 +1,4 @@
-baseURL: https://example.org/ # TODO: Update this to the actual URL of the website once it's deployed.
+baseURL: https://example.org/ # Will be ignored, Docker will handle baseURL.
 locale: en-us
 title: FAIR Lab @ USAFA
 theme: ["PaperMod"]
